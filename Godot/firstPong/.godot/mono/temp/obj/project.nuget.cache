@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ME8TR7qZRuq9p70n4/YraA6aRu/fVDKjmYb7WIfC9ei1pyIUSkIrcM0qPnYrKrGYn7UaCptiYJDrhpaFIst7QQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\marce\\GameDevLearn\\Godot\\firstPong\\firstPong.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marce\\.nuget\\packages\\godot.sourcegenerators\\4.1.2\\godot.sourcegenerators.4.1.2.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\godotsharp\\4.1.2\\godotsharp.4.1.2.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\godotsharpeditor\\4.1.2\\godotsharpeditor.4.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

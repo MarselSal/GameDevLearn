@@ -1,0 +1,17 @@
+C:\Users\marce\GameDevLearn\Godot\firstPong\.godot\mono\temp\bin\Debug\firstPong.deps.json
+C:\Users\marce\GameDevLearn\Godot\firstPong\.godot\mono\temp\bin\Debug\firstPong.runtimeconfig.json
+C:\Users\marce\GameDevLearn\Godot\firstPong\.godot\mono\temp\bin\Debug\firstPong.dll
+C:\Users\marce\GameDevLearn\Godot\firstPong\.godot\mono\temp\bin\Debug\firstPong.pdb
+C:\Users\marce\GameDevLearn\Godot\firstPong\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\marce\GameDevLearn\Godot\firstPong\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\marce\GameDevLearn\Godot\firstPong\.godot\mono\temp\obj\Debug\firstPong.csproj.AssemblyReference.cache
+C:\Users\marce\GameDevLearn\Godot\firstPong\.godot\mono\temp\obj\Debug\firstPong.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marce\GameDevLearn\Godot\firstPong\.godot\mono\temp\obj\Debug\firstPong.AssemblyInfoInputs.cache
+C:\Users\marce\GameDevLearn\Godot\firstPong\.godot\mono\temp\obj\Debug\firstPong.AssemblyInfo.cs
+C:\Users\marce\GameDevLearn\Godot\firstPong\.godot\mono\temp\obj\Debug\firstPong.csproj.CoreCompileInputs.cache
+C:\Users\marce\GameDevLearn\Godot\firstPong\.godot\mono\temp\obj\Debug\firstPong.csproj.CopyComplete
+C:\Users\marce\GameDevLearn\Godot\firstPong\.godot\mono\temp\obj\Debug\firstPong.dll
+C:\Users\marce\GameDevLearn\Godot\firstPong\.godot\mono\temp\obj\Debug\refint\firstPong.dll
+C:\Users\marce\GameDevLearn\Godot\firstPong\.godot\mono\temp\obj\Debug\firstPong.pdb
+C:\Users\marce\GameDevLearn\Godot\firstPong\.godot\mono\temp\obj\Debug\firstPong.genruntimeconfig.cache
+C:\Users\marce\GameDevLearn\Godot\firstPong\.godot\mono\temp\obj\Debug\ref\firstPong.dll
