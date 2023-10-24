@@ -1,6 +1,7 @@
-res://Player/player.tscn
-res://Player/player.cs
 res://Level/levelScene.tscn
+res://Player/player.tscn
 res://Opponent/opponent.tscn
 res://Ball/ball.tscn
 res://Ball/ball.cs
+res://Opponent/opponent.cs
+res://Player/player.cs

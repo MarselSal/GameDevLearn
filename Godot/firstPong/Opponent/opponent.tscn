@@ -1,11 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://dddwr6jrv4p8y"]
+[gd_scene load_steps=4 format=3 uid="uid://dddwr6jrv4p8y"]
 
 [ext_resource type="Texture2D" uid="uid://b5ea85pnnpc4q" path="res://Assets/Paddle.png" id="1_137sg"]
+[ext_resource type="Script" path="res://Opponent/opponent.cs" id="1_l7sit"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_usvkn"]
 size = Vector2(30, 121)
 
 [node name="Opponent" type="CharacterBody2D"]
+script = ExtResource("1_l7sit")
 metadata/_edit_group_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="."]

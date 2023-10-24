@@ -26,6 +26,7 @@ public partial class ball : CharacterBody2D
 		// retorna um KinematicCollision
 
 		if(collision_obj != null){
+			// normal eh a direcao que a superficie esta olhando
 			Vector2 normal = collision_obj.GetNormal();
 			velocity = velocity.Bounce(normal);
 		}
