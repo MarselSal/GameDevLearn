@@ -33,7 +33,7 @@ public partial class opponent : CharacterBody2D
 		Vector2 ballPos = ball.Position;
 
 		//caso a dif absolutado entre a bola e o openente seja maior que 25
-		if(Mathf.Abs(ballPos.Y - Position.Y) > 15){
+		if(Mathf.Abs(ballPos.Y - Position.Y) > 25){
 			if(ballPos.Y < Position.Y){
 				return - 1;
 			}else return 1;

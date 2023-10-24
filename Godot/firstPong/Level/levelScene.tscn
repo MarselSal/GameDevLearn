@@ -9,7 +9,7 @@
 size = Vector2(1280, 20)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ha3ni"]
-size = Vector2(100, 750)
+size = Vector2(100, 718)
 
 [node name="Level" type="Node"]
 script = ExtResource("1_qhd1p")
@@ -62,3 +62,5 @@ metadata/_edit_group_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Goals/GoalRight"]
 shape = SubResource("RectangleShape2D_ha3ni")
+
+[connection signal="body_entered" from="Goals/GoalLeft" to="." method="_on_goal_left_body_entered"]

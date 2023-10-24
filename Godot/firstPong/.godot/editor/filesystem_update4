@@ -3,5 +3,6 @@ res://Player/player.tscn
 res://Opponent/opponent.tscn
 res://Ball/ball.tscn
 res://Ball/ball.cs
+res://Level/levelScene.cs
 res://Opponent/opponent.cs
 res://Player/player.cs
