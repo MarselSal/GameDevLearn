@@ -63,4 +63,20 @@ metadata/_edit_group_ = true
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Goals/GoalRight"]
 shape = SubResource("RectangleShape2D_ha3ni")
 
+[node name="PlayerScore" type="Label" parent="."]
+offset_left = -90.0
+offset_right = 1190.0
+offset_bottom = 720.0
+text = "test"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="OpponentScore" type="Label" parent="."]
+offset_left = 90.0
+offset_right = 1370.0
+offset_bottom = 720.0
+text = "test"
+horizontal_alignment = 1
+vertical_alignment = 1
+
 [connection signal="body_entered" from="Goals/GoalLeft" to="." method="_on_goal_left_body_entered"]
