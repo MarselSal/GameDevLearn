@@ -5,13 +5,16 @@ public partial class levelScene : Node
 {
     [Export]
     public CharacterBody2D ball;
-    public int playerScoreNumber = 0;
-    public int opponentScoreNumber = 0;
+    public int playerScoreNumber;
+    public int opponentScoreNumber;
 
     [Export]
     public Label playerScoreLabel;
     [Export]
     public Label opponentScoreLabel;
+
+    [Export]
+    public Timer timer;
 
     public override void _Ready()
     {
@@ -26,7 +29,7 @@ public partial class levelScene : Node
 
         opponentScoreLabel ??= GetNode<Label>("OpponentScore");
 
-
+        timer ??= GetNode<Timer>("CountdownTimer");
 
     }
 
@@ -38,17 +41,26 @@ public partial class levelScene : Node
 
     // signal do Label que avisa pro level q a boal entrou
     public void _on_goal_left_body_entered(Node2D body){
-        number_to_label(opponentScoreLabel, opponentScoreNumber);
-        ball.Position = new Vector2(640,360);
+        opponentScoreNumber++;
+        Label_and_reset(opponentScoreLabel, opponentScoreNumber, ball);
+       
     }
 
     public void _on_goal_right_body_entered(Node2D body){
-        number_to_label(playerScoreLabel, playerScoreNumber);
-        ball.Position = new Vector2(640,360);
+        playerScoreNumber++;
+        Label_and_reset(playerScoreLabel, playerScoreNumber, ball);
+        
     }
 
-    public void number_to_label(Label label, int number){
-        number++;
+    public void Label_and_reset(Label label, int number, CharacterBody2D ball){
         label.Text = number.ToString();
+        ball.Position = new Vector2(640,360);
+        GetTree().CallGroup("BallGroup", "Stop_ball");
+        timer.Start();
     }
+
+    public void _on_countdown_timer_timeout(){
+        GetTree().CallGroup("BallGroup", "Restart_ball");
+    }
+
 }

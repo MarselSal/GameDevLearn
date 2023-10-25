@@ -3,7 +3,7 @@ using System;
 
 public partial class ball : CharacterBody2D
 {
-	public const float Speed = 400.0f;
+	public float Speed = 400.0f;
 
 	public Vector2 velocity = Vector2.Zero;
 
@@ -33,10 +33,21 @@ public partial class ball : CharacterBody2D
 
 	}
 
+	public void Stop_ball(){
+		Speed = 0;
+	}
+
+	public void Restart_ball(){
+		Speed = 400.0f;
+		velocity.X = _RandomizeDirection(-1,1);
+		velocity.Y = _RandomizeDirection(-0.8f, 0.8f);
+	}
 	// funcao para randomizar a direcao q a bola vai começar
 	private float _RandomizeDirection(float velocityNegative, float velocityPositive){
 		float[] valor = {velocityNegative, velocityPositive};
 		// vai randomizar uma das duas posicoes do array
 		return valor[GD.Randi() % 2];
 	}
+
+
 }
